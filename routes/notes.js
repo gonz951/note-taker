@@ -9,7 +9,7 @@ router.post('/notes', (req, res) => {
 
     const { title, text } = req.body;
 
-    if (req.body) {
+    if (title && text) {
         const newNote = {
             title,
             text,
@@ -24,8 +24,9 @@ router.post('/notes', (req, res) => {
                 parseNotes.push(newNote);
                 fs.writeFile(
                     './db/db.json',
-                    JSON.stringify(parseNotes)
-                )
+                    JSON.stringify(parseNotes, null, 4), (err) =>
+                    err ? console.error(err) : console.info(`\nData written to db.json`)
+                 )
             }
         })
     }
