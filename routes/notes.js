@@ -19,6 +19,8 @@ notes.get('/notes/:note_id', (req, res) => {
             ? res.json(result)
             : res.json('No note with that ID');
         });
+
+    
 });
 
 notes.delete('/notes/:note_id', (req, res) => {
