@@ -1,27 +1,17 @@
 [
     {
-        "title": "Title",
-        "text": "Wowie",
-        "id": "076e3623-52bb-4e2c-b983-8dcc0188a8ce"
+        "title": "Submit Challenge",
+        "text": "Submit my challenge on Canvas.",
+        "id": "c475110b-43fd-429d-9809-4a967352f244"
     },
     {
-        "title": "NOTE",
-        "text": "NOTEEEE",
-        "id": "d0069755-22ca-498c-a043-dfd9fc313897"
+        "title": "Buy Milk",
+        "text": "One month from now, I need more milk.",
+        "id": "2a8df9bc-04dc-45c1-a742-490b5aad4797"
     },
     {
-        "title": "Notie",
-        "text": "notenote",
-        "id": "7fddfd66-448a-4d34-b4af-d769c5043c2c"
-    },
-    {
-        "title": "Notes",
-        "text": "dfafew",
-        "id": "9939dc14-a36e-441d-937d-66f8be0e62c9"
-    },
-    {
-        "title": "Little",
-        "text": "note",
-        "id": "27b41a4c-1653-4de3-b3c3-f95436252f90"
+        "title": "Eat a grilled cheese",
+        "text": "Haven't had one of those in a while.",
+        "id": "ea262f4d-00ef-4827-ad15-c40df309f481"
     }
 ]
